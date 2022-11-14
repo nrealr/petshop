@@ -1,0 +1,271 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* header barra negra start */
+header div.barra{
+    display: flex;
+    background-color: #222222;
+    color: #F3F3F3;
+    justify-content: space-between;
+    padding-left: 80px;
+    height: 20px;
+    width: 1024px;
+
+}
+
+header div nav{
+    display: flex;
+    margin-right: 50px;
+}
+
+header div nav p{
+    padding-left: 20px;
+}
+/* header barra negra end */
+
+/* header barra naranja start */
+
+header div.cabecera{
+    display: flex;
+    align-items: center;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    justify-content: space-between;
+    padding-left: 50px;
+    height: 62px;
+    width: 1024px;
+
+}
+
+header div nav ul{
+    display: flex;
+}
+
+header div nav ul li{
+    list-style: none;
+    padding:15px
+}
+/* header barra naranja end */
+
+/* main */
+
+/* seccion plato start */
+
+main div.plato{
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    width: 1024px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+main section.plato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div section h2{
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+main div section h3{
+    text-align: center;
+    padding: 10px;
+}
+
+main div section button{
+    
+    background-color: #F0A83E;
+    border-radius: 5%;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+}
+
+/* seccion plato end */
+
+/* seccion destacados start*/
+
+div section.patita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    width: 1024px;
+    
+}
+
+div section.patita h2{
+    font-size: 40px;
+}
+
+div section.patita ul{
+    display: flex;
+    list-style: none;
+}
+
+div section.patita ul li{
+    padding-right: 20px;
+    color: #666666;
+}
+
+div section.product {
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+}
+
+div section.product article{
+    text-align: center;
+    margin-left: 40px;
+    padding-bottom: 50px;
+}
+
+div section.product article p.precio{
+    color: #F0A83E;
+}
+
+div section.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1024px;
+    margin-bottom: 50px;
+}
+
+div section.form ul li{
+    list-style: none;
+    width: 340px;
+    background-color: #3C2313;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+    color: white;
+    font-size: 10px;
+}
+
+div section.form div button{
+    border-radius: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+div section.form div button.reset{
+    background-color: #8A8787;
+}
+
+/* seccion destacados end */
+
+/* main end */
+
+/* footer start */
+
+/* seccion amarilla */
+footer div.top{
+    display: flex;
+    background-color: #F0A83E;
+    justify-content: space-between;
+    color: white;
+    width: 1024px;
+    height: 60px;
+
+}
+
+footer div.top section{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+footer div.top section p.mail{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+footer div.top section.sub{
+    font-size: 10px;
+}
+
+footer div.top section.sub p{
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 40px;
+    color: #A0A0A0;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+footer div.top section.sub button{
+    background-color: #3C2313;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/* seccion amarilla end */
+
+/* seccion cafe start  */
+
+footer div section.fin{
+    display: flex;
+    width: 1024px;
+    background-color: #3C2313;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer div section.fin div.contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+    
+}
+
+footer div section.fin div.contact article{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    
+}
+
+footer div section.fin div.contact article div{
+    color: white;
+    display: block;
+    padding-left: 10px;
+
+}
+footer div section.fin div.contact article div p.color{
+    color: #8A8787;
+}
+
+
+/* seccion cafe end */
+
+
+/* ultima seccion */
+
+footer div.final{
+    background-color: #222222;
+    width: 1024px;
+    color: white;
+    text-align: center;
+}
+
+/* ultima seccion fin */
